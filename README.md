@@ -9,5 +9,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 ## Docker build and run
 
 For build and run:
-`docker build . -t angular-boda`  
- `docker run -p 8080:80 -e ENVIRONMENT=Production -t angular-boda`
+`docker build . -t demo-app:latest`  
+ `docker run -p 8080:80 -e ENVIRONMENT=Production -t demo-app:latest`
